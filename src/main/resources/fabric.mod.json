@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "TutorialMod",
+	"description": "This mod adds 3 items: Suspicious Substance, Lightning Stick, and Diamond Drop Stick",
+	"authors": [
+		"Michael Stanley"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mike.tutorialmod.net.TutorialMod"
+		],
+		"client": [
+			"mike.tutorialmod.net.client.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json",
+		{
+			"config": "tutorialmod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
