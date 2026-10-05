@@ -1,7 +1,7 @@
-# Design1: Minecraft Mod 
+# Minecraft Mod 
 ![LightningAndDiamondDropStick.gif](LightningAndDiamondDropStick.gif)
 
-I made a mod for Minecraft 1.21.10 using Fabric. It adds three items: Suspicious Substance, Lightning Stick, and Diamond Drop Stick.
+Mod for Minecraft 1.21.10 using Fabric. It adds three items: Suspicious Substance, Lightning Stick, and Diamond Drop Stick.
 The Suspicious Substance and Lightning Stick were tutorial items from the [Fabric](https://docs.fabricmc.net/1.21.1/develop/items/first-item) documentation and I added the Diamond Drop Stick on my own.
 
 ### Item Functionality
@@ -46,6 +46,7 @@ Gradle will download Minecraft.
 - I learned how to set  up a project to make a Minecraft Mod with fabric
 - How to add new items and give them functionality in Minecraft
 - Basics of writing Markdown
+  
 ## Item resources
 
 The two Stick items have a texture obtained from this [link](https://minecraft.novaskin.me/post/979223242/stick-16x16) 
